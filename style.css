@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px 20px;
+}
+
+.plans {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.plan {
+    flex-grow: 1;
+    min-width: 280px;
+    flex-basis: calc(100% / 3 - 40px / 3);
+    padding: 20px 20px;
+    border-radius: 10px;
+    border: 1px solid #e5e7eb;
+
+
+}
+
+.plan-featured {
+    background-color: rgb(152, 62, 237);
+    color: white;
+    list-style: none;
+
+}
+
+.plan-featured .btn {
+    background-color: white;
+    color: rgb(152, 62, 237);
+
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+.btn {
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(152, 62, 237);
+    color: white;
+    margin: 20px 0px;
+}
+
+.features {
+    list-style: none;
+    padding-left: 0;
+}
+
+.price {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.price span {
+    font-size: 1rem;
+}
+
+.intro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+.bi-check-lg {
+    color: green;
+}
+
+.bi-x-lg {
+    color: gray;
+}
+
+.features i {
+    margin-right: 8px;
+}
+
+.plan-featured .bi-check-lg,
+.plan-featured .bi-x-lg {
+    color: white;
+}
+
+.discount {
+    text-align: center;
+}
